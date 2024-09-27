@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario del panda</title>
+</head>
+<body>
+    <form action="pagina_ficticia.htm" method="get">
+        <label for="nombre">Nombre del panda:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="especie">Especie:</label>
+        <select id="especie" name="especie">
+            <option value="panda">rojo</option>
+            <option value="panda">gigante</option>
+        </select><br><br>
+
+        <input type="checkbox" id="vacunado" name="vacunado">
+        <label for="vacunado">¿Está vacunado?</label><br><br>
+
+        <label>Sexo:</label><br>
+        <input type="radio" id="macho" name="sexo" value="macho">
+        <label for="macho">Macho</label>
+        <input type="radio" id="hembra" name="sexo" value="hembra">
+        <label for="hembra">Hembra</label><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
